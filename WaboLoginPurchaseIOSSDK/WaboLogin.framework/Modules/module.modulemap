@@ -1,0 +1,11 @@
+framework module WaboLogin {
+  umbrella header "WaboLogin.h"
+
+  export *
+  module * { export * }
+}
+
+module WaboLogin.Swift {
+  header "WaboLogin-Swift.h"
+  requires objc
+}

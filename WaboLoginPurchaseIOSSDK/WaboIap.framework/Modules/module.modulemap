@@ -1,0 +1,11 @@
+framework module WaboIap {
+  umbrella header "WaboIap.h"
+
+  export *
+  module * { export * }
+}
+
+module WaboIap.Swift {
+  header "WaboIap-Swift.h"
+  requires objc
+}
