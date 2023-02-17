@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "WaboLoginPurchaseIOSSDK"
-  spec.version="0.0.2"
+  spec.version="0.0.3"
   spec.summary = "Wabo SDK LoginPurchase sdk"
   spec.description= <<-DESC
   Wabo SDK for LoginPurchase
@@ -14,4 +14,5 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'WaboLoginPurchaseIOSSDK/*.{framework}'
   spec.public_header_files = 'WaboLoginPurchaseIOSSDK/*.{framework}/Headers/*.h'
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
+  spec.swift_version = '5.0'
 end
