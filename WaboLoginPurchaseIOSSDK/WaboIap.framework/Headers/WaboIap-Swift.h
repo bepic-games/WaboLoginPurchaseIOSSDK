@@ -282,7 +282,16 @@ SWIFT_CLASS("_TtC7WaboIap7WaboIap")
 /// returns:
 /// version of third party
 - (WaboBridgeResult * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
+/// get payment method
+///
+/// returns:
+/// payment method
 - (WaboBridgeResult * _Nonnull)getPaymentMethod SWIFT_WARN_UNUSED_RESULT;
+/// get currency name
+///
+/// returns:
+/// currency name
+- (WaboBridgeResult * _Nonnull)getCurrencyName SWIFT_WARN_UNUSED_RESULT;
 /// init  sdk with json
 /// \param jsonString json data
 ///
