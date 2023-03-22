@@ -282,6 +282,9 @@ SWIFT_CLASS("_TtC9WaboLogin9WaboLogin")
 /// returns:
 /// Void
 - (void)onInitWithJson:(NSString * _Nonnull)jsonString :(WaboStaticInfo * _Nonnull)staticInfo;
+- (WaboBridgeResult * _Nonnull)isLogined SWIFT_WARN_UNUSED_RESULT;
+- (WaboBridgeResult * _Nonnull)getGameAccountId SWIFT_WARN_UNUSED_RESULT;
+- (WaboBridgeResult * _Nonnull)getSessionToken SWIFT_WARN_UNUSED_RESULT;
 - (WaboBridgeResult * _Nonnull)getLoginTypes SWIFT_WARN_UNUSED_RESULT;
 - (void)getLoginParams:(NSString * _Nonnull)loginType :(void (^ _Nonnull)(id _Nullable))block;
 - (void)autoLoginAsync:(BOOL)needGameCenter :(void (^ _Nonnull)(id _Nullable))block;
