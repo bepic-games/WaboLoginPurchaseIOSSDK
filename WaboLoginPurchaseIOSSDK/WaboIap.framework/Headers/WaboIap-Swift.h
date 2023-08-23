@@ -335,6 +335,7 @@ SWIFT_CLASS("_TtC7WaboIap7WaboIap")
 - (WaboBridgeResult * _Nonnull)findIapItemByProductId:(NSString * _Nonnull)productId SWIFT_WARN_UNUSED_RESULT;
 - (void)onRestore:(void (^ _Nonnull)(id _Nullable))block;
 - (void)setWaboIapInitDelegate:(void (^ _Nonnull)(id _Nullable))delegate;
+- (void)setWaboTransactionStatusDelegate:(void (^ _Nonnull)(id _Nullable))delegate;
 /// Sent when the transaction array has changed (additions or state changes).  Client should check state of transactions and finish as appropriate.
 /// \param queue queue
 ///
