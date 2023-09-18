@@ -331,6 +331,7 @@ SWIFT_CLASS("_TtC7WaboIap7WaboIap")
 - (void)onInitWithJson:(NSString * _Nonnull)jsonString :(WaboStaticInfo * _Nonnull)staticInfo;
 - (void)onPurchase:(NSDictionary<NSString *, id> * _Nonnull)purchaseInfo :(void (^ _Nonnull)(id _Nullable))block;
 - (WaboBridgeResult * _Nonnull)getIapItems SWIFT_WARN_UNUSED_RESULT;
+- (void)getIapItemsAsync:(void (^ _Nonnull)(id _Nullable))block;
 - (WaboBridgeResult * _Nonnull)findIapItemByItemId:(NSString * _Nonnull)itemId SWIFT_WARN_UNUSED_RESULT;
 - (WaboBridgeResult * _Nonnull)findIapItemByProductId:(NSString * _Nonnull)productId SWIFT_WARN_UNUSED_RESULT;
 - (void)onRestore:(void (^ _Nonnull)(id _Nullable))block;
