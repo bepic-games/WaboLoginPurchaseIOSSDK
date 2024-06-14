@@ -1,7 +1,7 @@
 framework module WaboIap {
   umbrella header "WaboIap.h"
-
   export *
+
   module * { export * }
 }
 
