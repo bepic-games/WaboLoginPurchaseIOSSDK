@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "WaboLoginPurchaseIOSSDK"
-  spec.version="0.1.36"
+  spec.version="0.1.37"
   spec.summary = "Wabo SDK LoginPurchase sdk"
   spec.description= <<-DESC
   Wabo SDK for LoginPurchase
