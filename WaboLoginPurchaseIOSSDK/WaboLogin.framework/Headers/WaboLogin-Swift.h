@@ -349,6 +349,7 @@ SWIFT_CLASS("_TtC9WaboLogin9WaboLogin")
 - (void)getBindTransferCode:(void (^ _Nonnull)(id _Nullable))block;
 - (void)generateTransferCode:(void (^ _Nonnull)(id _Nullable))block;
 - (void)bindTransferCode:(NSString * _Nonnull)transferCode :(void (^ _Nonnull)(id _Nullable))block;
+- (void)bindTransferCodeAndReLogin:(NSString * _Nonnull)transferCode :(void (^ _Nonnull)(id _Nullable))block;
 - (void)setWaboLoginInitDelegate:(void (^ _Nonnull)(id _Nullable))delegate;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
